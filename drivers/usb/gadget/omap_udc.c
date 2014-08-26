@@ -120,6 +120,9 @@ MODULE_PARM_DESC (use_dma, "enable/disable DMA");
 #define	use_dma		0
 #endif	/* !USE_DMA */
 
+#ifdef CONFIG_FORCE_FAST_CHARGE
+#include <linux/fastchg.h> /*Fast Charge header*/
+#endif
 
 static const char driver_name [] = "omap_udc";
 static const char driver_desc [] = DRIVER_DESC;
