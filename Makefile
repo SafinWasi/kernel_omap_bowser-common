@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 0
 SUBLEVEL = 72
-EXTRAVERSION =
+EXTRAVERSION =-safinwasi-kernel-fastcharge-v1
 NAME = Sneaky Weasel
 
 # *DOCUMENTATION*
